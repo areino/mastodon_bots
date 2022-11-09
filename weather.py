@@ -39,7 +39,7 @@ else:
     desc = "Hace un tiempo muy raro."
 
 ## Compose post
-toot = desc + " " + str(temperature) + " grados. En " + town
+toot = desc + " " + str(temperature) + " grados. En " + town + "."
 
 # Prepare Mastodon API call
 url = "https://" + instance + "/api/v1/statuses"
